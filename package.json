@@ -1,0 +1,49 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "A modern, responsive task management application built with vanilla JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000 -o",
+    "lint": "eslint *.js",
+    "format": "prettier --write *.html *.css *.js",
+    "validate": "html-validate index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/taskflow.git"
+  },
+  "keywords": [
+    "task-manager",
+    "todo",
+    "productivity",
+    "javascript",
+    "vanilla-js",
+    "html5",
+    "css3",
+    "responsive",
+    "web-app",
+    "frontend"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/taskflow/issues"
+  },
+  "homepage": "https://github.com/yourusername/taskflow#readme",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "html-validate": "^7.0.0",
+    "http-server": "^14.0.0",
+    "prettier": "^2.8.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
